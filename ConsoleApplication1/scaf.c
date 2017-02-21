@@ -8,5 +8,7 @@ int main(void)
 	for (int i = 2; i <= 9; i++)
 		printf("%d * %d = %d\n", num, i, num*i);
 
+	printf("%d단 출력 끝", num);
+
 	return 0;
 }
